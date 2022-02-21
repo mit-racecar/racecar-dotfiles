@@ -8,9 +8,6 @@ export PYTHONPATH="/home/racecar/racecar_ws/src/scripts:$PYTHONPATH"
 
 alias teleop="roslaunch racecar teleop.launch"
 alias zed="roslaunch zed_wrapper zed.launch"
-alias safety="roslaunch safety safety.launch"
-alias controller="roslaunch controller controller.launch"
 
 source /opt/ros/melodic/setup.bash
-source /home/racecar/racecar_ws/.catkin_ws/devel/setup.bash
-# source /home/racecar/cartographer_ws/devel_isolated/setup.bash
+source /home/racecar/racecar_ws/devel/setup.bash
